@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Play around with vue and webpack",
   "scripts": {
-    "app:dev": "webpack --watch --config webpack.dev.js",
-    "app:prod": "webpack --config webpack.prod.js"
+    "app:dev": "webpack --watch --config js/config/webpack.dev.js",
+    "app:prod": "webpack --config js/config/webpack.prod.js"
   },
   "repository": {
     "type": "git",

@@ -8,7 +8,7 @@ module.exports = {
     },
     output: {
         filename: '[name].js',
-        path: path.resolve(__dirname, 'js/build')
+        path: path.resolve(__dirname, '../build')
     },
     module: {
         rules: [
