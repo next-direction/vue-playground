@@ -1,0 +1,30 @@
+{
+  "name": "vueplayground",
+  "version": "1.0.0",
+  "description": "Play around with vue and webpack",
+  "scripts": {
+    "app:dev": "webpack --watch --config webpack.dev.js",
+    "app:prod": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/next-direction/vue-playground.git"
+  },
+  "keywords": [
+    "vue",
+    "webpack"
+  ],
+  "author": "Manuel Hesselbarth",
+  "license": "MIT",
+  "devDependencies": {
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
+}
