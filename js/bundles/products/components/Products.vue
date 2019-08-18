@@ -9,3 +9,11 @@
 
     }
 </script>
+
+<style lang="less" scoped>
+    @bg-color: #428bca;
+
+    div {
+        background-color: @bg-color;
+    }
+</style>
